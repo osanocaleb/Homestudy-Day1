@@ -1,10 +1,9 @@
 def fizz_buzz(x):
   if x % 3==0 and x % 5==0:
-    return "fizz buzz"
+    return "FizzBuzz"
   elif x % 5==0:
-      return "buzz"
+      return "Buzz"
   elif x % 3==0:
-        return " Buzz"
+        return "Fizz"
   else:
     return x
-print fizz_buzz(58)
